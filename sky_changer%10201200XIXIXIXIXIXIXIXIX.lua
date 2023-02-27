@@ -26,8 +26,6 @@ child:Destroy()
 end
 end
 
-game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.Aim.CursorImage.Image = "rbxthumb://type=Asset&id=12626430160&w=420&h=420"
-
 game.Lighting.Ambient = Color3.fromRGB(0,0,0)
 game.Lighting.ColorShift_Bottom = Color3.fromRGB(0,0,0)
 game.Lighting.ColorShift_Top = Color3.fromRGB(0,0,0)
