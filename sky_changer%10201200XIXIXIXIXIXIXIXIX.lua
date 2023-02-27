@@ -67,14 +67,14 @@ if getgenv().Lights then
 			child.Enabled = true
 		end
 	end
-	wait(0.5)
+	wait(2)
 	for _, child in ipairs(light:GetDescendants()) do
 		if child:IsA("SpotLight")then
 			child.Color = Color3.fromRGB(98,110,127)
 			child.Enabled = true
 		end
 	end
-	wait(0.5)
+	wait(2)
 end
 end
 end)
